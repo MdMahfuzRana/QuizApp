@@ -1,0 +1,47 @@
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-size:1.3rem;
+    font-weight:600;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding:20px;
+}
+.body__container{
+    padding:20px;
+}
+.quize__iamge__container{
+    height: 300px;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.quize__iamge__container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.colo__coontent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sticky__footer{
+    padding:10px;
+}
+.animtedSign{
+   font-size:30px;
+   margin-right: 10px;
+}
+.quizBody__container{
+    display:flex;
+    overflow:hidden;
+}
+.quizSelf{
+    width:100%;
+    flex-shrink: 0;
+}
